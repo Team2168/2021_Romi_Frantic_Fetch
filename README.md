@@ -1,11 +1,7 @@
 # 2021_Romi_Frantic_Fetch
 Repo to store our code for the Frantic Fetch.
 
-TODO: Update w/ Frantic Fetch stuffs
-
-![](https://images.squarespace-cdn.com/content/v1/5d4b06a67cd3580001ded283/1614822917978-I72NEESG0XGH9VFFST41/ke17ZwdGBToddI8pDm48kOqYnsiUDjsZaJqFDGXMr4gUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2doVXUrDOVQ_2ZtxCciDuvb26pkjsECF95UiDEciaBHtjCjLISwBs8eEdxAxTptZAUg/Course+1%400.25x.png?format=1500w)
-
-![](https://images.squarespace-cdn.com/content/v1/5d4b06a67cd3580001ded283/1614822955279-NSN404I6Q9NCP2WEUQ90/ke17ZwdGBToddI8pDm48kOqYnsiUDjsZaJqFDGXMr4gUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2doVXUrDOVQ_2ZtxCciDuvb26pkjsECF95UiDEciaBHtjCjLISwBs8eEdxAxTptZAUg/Course+2%400.25x.png?format=1500w)
+![](images/course.jpg)
 
 Submission videos:
   * Teleop: N/A
