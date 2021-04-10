@@ -110,3 +110,6 @@ https://docs.wpilib.org/en/latest/docs/romi-robot/web-ui.html#imu-calibration
 
 ![imu calibration](https://docs.wpilib.org/en/latest/_images/romi-ui-imu-calibration.png)
 
+# Pathweaver setup:
+
+To add the Romi field into PathWever, follow the instructions in this repo [here](PathWeaver/Color/readme.md).
