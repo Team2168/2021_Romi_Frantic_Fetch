@@ -9,7 +9,10 @@ Submission videos:
 
 # Documentation
 
-  * RULES PDF LINKY LINKY TODO
+__Challenge #3 Frantic Fetch Submissions due between 12:01 AM EDT May 2nd and 11:59 PM EDT May 3rd__
+
+  * [Frantic Fetch Rules](https://wpilib.org/s/Frantic-Fetch-Rules-10-1.pdf)
+  * WPILIB blog where random updates show up: https://wpilib.org/
   * [Full romi hardware user manual](https://www.pololu.com/docs/0J69/all)
   * WPILib [getting started with Romi documumentation](https://docs.wpilib.org/en/latest/docs/romi-robot/index.html)
 
