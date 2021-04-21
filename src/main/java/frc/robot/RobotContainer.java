@@ -172,6 +172,7 @@ public class RobotContainer {
     m_chooser.addOption("Course 2 - WPI Trajectory", course2());
     m_chooser.addOption("Auto Routine Distance", new AutonomousDistance(m_drivetrain));
     m_chooser.addOption("Auto Routine Time", new AutonomousTime(m_drivetrain));
+    m_chooser.addOption("Ramsete Trajectory - Straight Line", new PathConverter(m_drivetrain, "output/StraightLine.wpilib.json").getCommand());
     
     SmartDashboard.putData(m_chooser);
   }
