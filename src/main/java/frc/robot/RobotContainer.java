@@ -31,7 +31,6 @@ import edu.wpi.first.wpilibj.trajectory.Trajectory;
 import edu.wpi.first.wpilibj.trajectory.TrajectoryConfig;
 import edu.wpi.first.wpilibj.trajectory.TrajectoryGenerator;
 import edu.wpi.first.wpilibj.trajectory.constraint.DifferentialDriveVoltageConstraint;
-import edu.wpi.first.wpilibj.util.Units;
 import edu.wpi.first.wpilibj2.command.Command;
 import edu.wpi.first.wpilibj2.command.InstantCommand;
 import edu.wpi.first.wpilibj2.command.PrintCommand;
@@ -85,6 +84,8 @@ public class RobotContainer {
   public RobotContainer() {
     // Configure the button bindings
     configureButtonBindings();
+    JoystickButton j = new JoystickButton(m_controller, 2);
+    j.whenPressed(new PathConverter(m_drivetrain, "output/Unnamed.wpilib.json").getCommand());
   }
 
   private Command generateRamseteCommand(Trajectory trajectory) {
@@ -173,6 +174,7 @@ public class RobotContainer {
     m_chooser.addOption("Auto Routine Distance", new AutonomousDistance(m_drivetrain));
     m_chooser.addOption("Auto Routine Time", new AutonomousTime(m_drivetrain));
     m_chooser.addOption("Ramsete Trajectory - Straight Line", new PathConverter(m_drivetrain, "output/StraightLine.wpilib.json").getCommand());
+    m_chooser.addOption("Ramsete Trajectory - Frantic Fetch Path?", new PathConverter(m_drivetrain, "output/FranticFetch.wpilib.json").getCommand());
     
     SmartDashboard.putData(m_chooser);
   }
